@@ -26,7 +26,10 @@ export const Intro = () => {
             <span>Chirayu Shah</span>
             <span style={{color: darkMode? 'white': ''}} >Jolly Developer, that you can work with complete fun !</span>
           </div>
+          <Link spy={true} to='Contact' smooth={true} activeClass='activeClass'>
+                      
           <button className="button i-button">Hire Me</button>
+                    </Link>
           <div className="i-icons">
             <a href='https://github.com/chirayu-xx' target='_blank' rel="noreferrer">
             <img src={GitHub} alt='github' />
