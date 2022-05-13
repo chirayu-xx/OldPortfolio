@@ -25,6 +25,13 @@
 .portfolio-slider{
     margin-top: 3rem;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 2rem;
+    width: 30rem;
+    height: 12rem;
 }
 
 .portfolio-slider .swiper-slide{

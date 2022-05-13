@@ -8,6 +8,7 @@ import Tracker from '../../img/tracker.png'
 import'swiper/css'
 import {themeContext} from '../../Context'
 import { useContext } from "react";
+import { Pagination } from 'swiper'
 
 
 export const Portfolio = () => {
@@ -19,9 +20,10 @@ export const Portfolio = () => {
         <span style={{color: darkMode? 'white': ''}}>Recent Projects</span>
         <span>Portfolio</span>
         <Swiper
-        spaceBetween={30}
-        slidesPerView={3}
-        grabCursor={true}
+        autoplay={{ delay: 2000 }}
+        modules={[Pagination]}
+        slidesPerView={1}
+        pagination={{clickable:true}}
         className='portfolio-slider'
         >
             <SwiperSlide>
