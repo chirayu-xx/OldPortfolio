@@ -8,6 +8,7 @@ import Facebook from '../../img/Facebook.png'
 import {themeContext} from '../../Context'
 import { useContext } from "react";
 import { motion } from 'framer-motion'
+import { Link } from 'react-scroll/modules'
 export const Works = () => {
     const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
@@ -17,9 +18,12 @@ export const Works = () => {
           <span style={{color: darkMode? 'white': ''}}>Works for all these</span>
           <span>Clients and Brands</span>
           <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit.<br/> Impedit quis a quibusdam, sed deserunt temporibus?<br/> you can hire me for the jobImpedit, asperiores!.<br/>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+          Lorem ipsum 
           </span>
-        <button className="button s-button">Hire Me</button>
+          <Link spy={true} to='Contact' smooth={true} activeClass='activeClass'>       
+            <button className="button n-button">Hire Me
+            </button>
+                    </Link>
         <div className="blur s-blur1" style={{background:'#ABF1FF94'}}>
         </div>
         </div>

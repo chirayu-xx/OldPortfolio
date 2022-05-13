@@ -13,6 +13,7 @@ import { FloatingDiv } from '../FloatingDiv/FloatingDiv'
 import {themeContext} from '../../Context'
 import { useContext } from "react";
 import { motion } from 'framer-motion'
+import { Link } from 'react-scroll/modules'
 
 export const Intro = () => {
   const transition = {duration: 2, type: 'spring'}
@@ -26,7 +27,10 @@ export const Intro = () => {
             <span>Chirayu Shah</span>
             <span style={{color: darkMode? 'white': ''}} >Jolly Developer, that you can work with complete fun !</span>
           </div>
+          <Link spy={true} to='Contact' smooth={true} activeClass='activeClass'>
+                      
           <button className="button i-button">Hire Me</button>
+                    </Link>
           <div className="i-icons">
             <a href='https://github.com/chirayu-xx' target='_blank' rel="noreferrer">
             <img src={GitHub} alt='github' />
