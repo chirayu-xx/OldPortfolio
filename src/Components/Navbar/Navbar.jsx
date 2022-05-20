@@ -20,7 +20,7 @@ export const Navbar = () => {
                     <li>Services</li>   
                     </Link>
                     <Link spy={true} to='Experiance' smooth={true} >
-                    <li>Experiance</li>   
+                    <li>Experience</li>   
                     </Link>
                     <Link spy={true} to='Portfolio' smooth={true} >
                     <li>Portfolio</li>   
