@@ -9,7 +9,7 @@ export const Experiance = () => {
          <div className='circle'>1+
          </div>
          <span>years</span>
-         <span>Experiance</span>
+         <span>Experience</span>
        </div>
        <div className='achievement'>
          <div className='circle'>8+
