@@ -5,6 +5,7 @@ import CuPedia from '../../img/cupedia.png'
 import Delivery from '../../img/delivery.png'
 import Login from '../../img/login.png'
 import Tracker from '../../img/tracker.png'
+import Spotify from '../../img/spotify.png'
 import'swiper/css'
 import {themeContext} from '../../Context'
 import { useContext } from "react";
@@ -28,6 +29,9 @@ export const Portfolio = () => {
         >
             <SwiperSlide>
                 <img src={CuPedia} alt='img'/>
+            </SwiperSlide>
+            <SwiperSlide>
+                <img src={Spotify} alt='img'/>
             </SwiperSlide>
             <SwiperSlide>
                 <img src={Login} alt='img'/>
