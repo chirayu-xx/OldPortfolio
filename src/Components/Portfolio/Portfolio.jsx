@@ -28,7 +28,7 @@ export const Portfolio = () => {
       >
         <SwiperSlide>
           <a
-            href="netflix-clone-three-phi.vercel.app"
+            href="https://netflix-clone-three-phi.vercel.app"
             target="_blank"
             rel="noreferrer"
           >
@@ -36,12 +36,12 @@ export const Portfolio = () => {
           </a>
         </SwiperSlide>
         <SwiperSlide>
-          <a href="" target="_blank" rel="noreferrer">
+          <a href="https://spotify-clone-chirayu-xx.vercel.app/" target="_blank" rel="noreferrer">
             <img src={Spotify} alt="img" />
           </a>
         </SwiperSlide>
         <SwiperSlide>
-          <a href="" target="_blank" rel="noreferrer">
+          <a href="https://cu-pedia.vercel.app/" target="_blank" rel="noreferrer">
             <img src={CuPedia} alt="img" />
           </a>
         </SwiperSlide>
@@ -51,7 +51,7 @@ export const Portfolio = () => {
           </a>
         </SwiperSlide>
         <SwiperSlide>
-          <a href="" target="_blank" rel="noreferrer">
+          <a href="https://covid-web-tracker.vercel.app/" target="_blank" rel="noreferrer">
             <img src={Tracker} alt="img" />
           </a>
         </SwiperSlide>
