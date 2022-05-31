@@ -4,6 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import CuPedia from "../../img/cupedia.png";
 import Netflix from "../../img/netflix.png";
 import Login from "../../img/login.png";
+import DeliFast from "../../img/delifast.png";
 import Tracker from "../../img/tracker.png";
 import Spotify from "../../img/spotify.png";
 import "swiper/css";
@@ -19,6 +20,7 @@ export const Portfolio = () => {
     <div className="portfolio" id="Portfolio">
       <span style={{ color: darkMode ? "white" : "" }}>Recent Projects</span>
       <span>Portfolio</span>
+      
       <Swiper
         autoplay={{ delay: 2000 }}
         modules={[Pagination]}
@@ -26,6 +28,15 @@ export const Portfolio = () => {
         pagination={{ clickable: true }}
         className="portfolio-slider"
       >
+        <SwiperSlide>
+          <a
+            href="https://deli-fast.vercel.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={DeliFast} alt="img" />
+          </a>
+        </SwiperSlide>
         <SwiperSlide>
           <a
             href="https://netflix-clone-three-phi.vercel.app"
