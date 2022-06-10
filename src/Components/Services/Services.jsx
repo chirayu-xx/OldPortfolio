@@ -22,9 +22,9 @@ export const Services = () => {
         className="button s-button"
         href={resume}
         download
-        style={{textDecoration: 'none'}}
+        style={{textDecoration: 'none', textAlign:'center'}}
       >
-        Download
+        Resume
       </a>
         <div className="blur s-blur1" style={{background:'#ABF1FF94'}}></div>
         </div>
