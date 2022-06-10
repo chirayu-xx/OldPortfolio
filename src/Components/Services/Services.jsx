@@ -1,4 +1,5 @@
 import React from 'react'
+import resume from '../../img/Chirayu_Shah_Resume.pdf'
 import './Services.css'
 import HeartEmoji from '../../img/heartemoji.png'
 import Glasses from '../../img/glasses.png'
@@ -17,7 +18,12 @@ export const Services = () => {
           <span style={{color: darkMode? 'white': ''}}>My Awesome</span>
           <span>Services</span>
           <span style={{color: darkMode? 'white': ''}}>The Services which I can offer you and from which<br/> you can hire me for the job.</span>
-        <button className="button s-button">Download Resume</button>
+        <button className="button s-button" onClick='dow'><a
+        href={resume}
+        download
+      >
+        Click to download
+      </a></button>
         <div className="blur s-blur1" style={{background:'#ABF1FF94'}}></div>
         </div>
         <div className="cards">
