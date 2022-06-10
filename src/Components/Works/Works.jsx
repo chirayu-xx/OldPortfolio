@@ -20,13 +20,15 @@ export const Works = () => {
           <span>This are the organizations and companies I had worked with and enhanced my skills working with them.
           </span>
           <Link spy={true} to='Contact' smooth={true} activeClass='activeClass'>       
-            <button className="button n-button">Hire Me
+            <button className="button n-button"
+            style={{margin:'1rem'}}
+            >Hire Me
             </button>
                     </Link>
         <div className="blur s-blur1" style={{background:'#ABF1FF94'}}>
         </div>
         </div>
-        
+
         <div className='w-right'>
             <motion.div 
             initial= {{rotate: 45}}
