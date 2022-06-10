@@ -16,7 +16,7 @@ export const Testimonials = () => {
         {
             img: profilePic1,
             review:
-            "Amazing Work and done with great coordination. I would love to work again with him. Keep it up! "
+            "Amazing Work and done with great coordination. I would love to work again with him. Keep it up. "
         },
         {
             img: profilePic2,
