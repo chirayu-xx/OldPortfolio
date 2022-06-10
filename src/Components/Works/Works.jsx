@@ -26,6 +26,7 @@ export const Works = () => {
         <div className="blur s-blur1" style={{background:'#ABF1FF94'}}>
         </div>
         </div>
+        
         <div className='w-right'>
             <motion.div 
             initial= {{rotate: 45}}
