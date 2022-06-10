@@ -16,22 +16,22 @@ export const Testimonials = () => {
         {
             img: profilePic1,
             review:
-            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam nesciunt nisi qui quisquam perspiciatis beatae necessitatibus ullam tenetur esse, voluptatem, libero enim nobis. Officia tenetur consequatur ipsum cum! Consequuntur "
+            "Amazing Work and done with great coordination. I would love to work again with him. Keep it up! "
         },
         {
             img: profilePic2,
             review:
-            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam nesciunt nisi qui quisquam perspiciatis beatae necessitatibus ullam tenetur esse, voluptatem, libero enim nobis. Officia tenetur consequatur ipsum cum! Consequuntur q"
+            "Amazing Work and done with great coordination. I would love to work again with him. Keep it up! q"
         },
         {
             img: profilePic3,
             review:
-            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam nesciunt nisi qui quisquam perspiciatis beatae necessitatibus ullam tenetur esse, voluptatem, libero enim nobis. Officia tenetur consequatur ipsum cum! Consequuntur ?"
+            "Amazing Work and done with great coordination. I would love to work again with him. Keep it up! ?"
         },
         {
             img: profilePic4,
             review:
-            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam nesciunt nisi qui quisquam perspiciatis beatae necessitatibus ullam tenetur esse, voluptatem, libero enim nobis. Officia tenetur consequatur ipsum cum! Consequunture?"
+            "Amazing Work and done with great coordination. I would love to work again with him. Keep it up!e?"
         },
     ]
   return (

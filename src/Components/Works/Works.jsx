@@ -17,8 +17,7 @@ export const Works = () => {
         <div className="awesome" >
           <span style={{color: darkMode? 'white': ''}}>Works for all these</span>
           <span>Clients and Brands</span>
-          <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit.<br/> Impedit quis a quibusdam, sed deserunt temporibus?<br/> you can hire me for the jobImpedit, asperiores!.<br/>
-          Lorem ipsum 
+          <span>This are the organizations and companies I had worked with and enhanced my skills working with them.
           </span>
           <Link spy={true} to='Contact' smooth={true} activeClass='activeClass'>       
             <button className="button n-button">Hire Me
