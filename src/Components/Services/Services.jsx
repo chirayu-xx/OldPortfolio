@@ -22,6 +22,7 @@ export const Services = () => {
         className="button s-button"
         href={resume}
         download
+        style={{textDecoration: 'none'}}
       >
         Download
       </a>
