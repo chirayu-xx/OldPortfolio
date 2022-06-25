@@ -16,22 +16,22 @@ export const Testimonials = () => {
         {
             img: profilePic1,
             review:
-            "Amazing Work and done with great coordination. I would love to work again with him. Keep it up! "
+            "Amazing Work and done with great coordination. I would love to work again with him. Keep it up. "
         },
         {
             img: profilePic2,
             review:
-            "Amazing Work and done with great coordination. I would love to work again with him. Keep it up! q"
+            "Amazing Work and done with great coordination. I would love to work again with him. Keep it up."
         },
         {
             img: profilePic3,
             review:
-            "Amazing Work and done with great coordination. I would love to work again with him. Keep it up! ?"
+            "Amazing Work and done with great coordination. I would love to work again with him. Keep it up."
         },
         {
             img: profilePic4,
             review:
-            "Amazing Work and done with great coordination. I would love to work again with him. Keep it up!e?"
+            "Amazing Work and done with great coordination. I would love to work again with him. Keep it up."
         },
     ]
   return (
