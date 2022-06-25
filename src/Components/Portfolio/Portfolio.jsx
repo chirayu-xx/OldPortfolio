@@ -7,6 +7,7 @@ import Login from "../../img/login.png";
 import DeliFast from "../../img/delifast.png";
 import Tracker from "../../img/tracker.png";
 import Spotify from "../../img/spotify.png";
+import Nft from "../../img/nft.png";
 import "swiper/css";
 import { themeContext } from "../../Context";
 import { useContext } from "react";
@@ -28,6 +29,15 @@ export const Portfolio = () => {
         pagination={{ clickable: true }}
         className="portfolio-slider"
       >
+        <SwiperSlide>
+          <a
+            href="https://pronef.vercel.app"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={Nft} alt="img" />
+          </a>
+        </SwiperSlide>
         <SwiperSlide>
           <a
             href="https://deli-fast.vercel.app/"
