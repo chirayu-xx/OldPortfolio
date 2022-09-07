@@ -1,12 +1,11 @@
 import React from "react";
 import "./Portfolio.css";
-import { Swiper, SwiperSlide } from "swiper/react";
-import CuPedia from "../../img/cupedia.png";
+import { Swiper, SwiperSlide } from "swiper/react"
 import Netflix from "../../img/netflix.png";
-import Login from "../../img/login.png";
+import Krypt from "../../img/krypt.png";
+
 import DeliFast from "../../img/delifast.png";
-import Tracker from "../../img/tracker.png";
-import Spotify from "../../img/spotify.png";
+
 import Nft from "../../img/nft.png";
 import "swiper/css";
 import { themeContext } from "../../Context";
@@ -29,6 +28,15 @@ export const Portfolio = () => {
         pagination={{ clickable: true }}
         className="portfolio-slider"
       >
+        <SwiperSlide>
+          <a
+            href="https://krypt-chirayu.vercel.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={Krypt} alt="img" />
+          </a>
+        </SwiperSlide>
         <SwiperSlide>
           <a
             href="https://pronef.vercel.app"
@@ -56,26 +64,7 @@ export const Portfolio = () => {
             <img src={Netflix} alt="img" />
           </a>
         </SwiperSlide>
-        <SwiperSlide>
-          <a href="https://spotify-clone-chirayu-xx.vercel.app/" target="_blank" rel="noreferrer">
-            <img src={Spotify} alt="img" />
-          </a>
-        </SwiperSlide>
-        <SwiperSlide>
-          <a href="https://cu-pedia.vercel.app/" target="_blank" rel="noreferrer">
-            <img src={CuPedia} alt="img" />
-          </a>
-        </SwiperSlide>
-        <SwiperSlide>
-          <a href="" target="_blank" rel="noreferrer">
-            <img src={Login} alt="img" />
-          </a>
-        </SwiperSlide>
-        <SwiperSlide>
-          <a href="https://covid-web-tracker.vercel.app/" target="_blank" rel="noreferrer">
-            <img src={Tracker} alt="img" />
-          </a>
-        </SwiperSlide>
+  
       </Swiper>
     </div>
   );
